@@ -42,14 +42,14 @@ Plaintext
 
 Ensure you have Python installed. You will need to install the required libraries:
 
-_```Bash```_
+_```Bash```_\
 ```pip install flask pandas requests```
 
 ### 2. Run the Application
 
 Start the Flask server:
 
-_```Bash```_
+_```Bash```_\
 ```python app.py```
 
 ### 3. Access the Scheduler
