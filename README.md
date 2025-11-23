@@ -1,10 +1,11 @@
-Airport Landing Slot Scheduler
-✈️ Overview
+# Airport Landing Slot Scheduler
+
+## ✈️ Overview
 This project is an Airport Runway Scheduler that optimizes the landing times of aircraft to minimize penalty costs associated with early or late landings. It uses a greedy algorithm to assign landing slots based on safety separation constraints and time windows.
 
 The application features a Flask backend for processing the scheduling logic and a responsive HTML/JavaScript frontend to visualize the results, including the final schedule, diverted flights, and total deviation costs.
 
-✨ Features
+## ✨ Features
 Greedy Scheduling Algorithm: Automatically sorts and schedules flights based on their Latest Landing Time (LLT).
 
 Constraint Handling: Respects specific separation times required between different aircraft to ensure safety.
@@ -17,7 +18,7 @@ Automatic Dataset Retrieval: Fetches the benchmark dataset (alp_10_1.txt) direct
 
 Web Interface: A clean UI to trigger the scheduler and view detailed tables of the results.
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 Language: Python 3.x
 
 Backend Framework: Flask
@@ -26,7 +27,7 @@ Data Processing: Pandas
 
 Frontend: HTML, CSS, Vanilla JavaScript
 
-📂 Project Structure
+## 📂 Project Structure
 Plaintext
 .
 ├── app.py                # Flask entry point; serves the web UI and API
@@ -36,19 +37,22 @@ Plaintext
 │   └── index.html        # Frontend user interface
 └── README.md             # Project documentation
 🚀 Installation & Usage
-1. Prerequisites
+
+### 1. Prerequisites
 
 Ensure you have Python installed. You will need to install the required libraries:
 
-Bash
-pip install flask pandas requests
-2. Run the Application
+_```Bash```_
+```pip install flask pandas requests```
+
+### 2. Run the Application
 
 Start the Flask server:
 
-Bash
-python app.py
-3. Access the Scheduler
+_```Bash```_
+```python app.py```
+
+### 3. Access the Scheduler
 
 Open your web browser and navigate to: http://127.0.0.1:5000
 
